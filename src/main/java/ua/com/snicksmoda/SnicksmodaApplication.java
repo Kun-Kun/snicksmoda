@@ -7,6 +7,6 @@ import ua.com.snicksmoda.configuration.JpaConfiguration;
 @SpringBootApplication
 public class SnicksmodaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(new Class<?>[]{SnicksmodaApplication.class, JpaConfiguration.class}, args);
+        SpringApplication.run(SnicksmodaApplication.class, args);
     }
 }

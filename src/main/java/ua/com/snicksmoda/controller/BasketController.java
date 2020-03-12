@@ -15,10 +15,10 @@ import javax.xml.ws.soap.Addressing;
 public class BasketController {
 
     @Autowired
-    ClientService clientService;
+    private ClientService clientService;
 
     @Autowired
-    BasketService basketService;
+    private BasketService basketService;
 
     @RequestMapping("/basket")
     ModelAndView getBasketInfo() {

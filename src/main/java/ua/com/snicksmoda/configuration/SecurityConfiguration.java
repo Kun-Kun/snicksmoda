@@ -19,7 +19,6 @@ import javax.sql.DataSource;
 @Configuration
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
-    @Qualifier("clientDetailsService")
     @Autowired
     private ClientDetailsService clientDetailsService;
 
